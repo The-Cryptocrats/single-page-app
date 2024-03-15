@@ -16,7 +16,7 @@ export const LinkData = [
   },
   {
     id: 4,
-    title: "Instructors",
+    title: "Instructor",
     url: "/instructor",
   },
 ];
