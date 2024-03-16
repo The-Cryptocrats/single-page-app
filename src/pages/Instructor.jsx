@@ -25,7 +25,7 @@ export const Instructor = () => {
           <div className="content grid grid-cols-2 gap-5 md:grid-cols-1">
             <div className="images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10">
               <img
-                src="/images/instructor2.jpg"
+                src="/single-page-app/images/instructor2.jpg"
                 alt=""
                 className="rounded-t-lg object-cover w-full h-72"
               />
@@ -40,7 +40,7 @@ export const Instructor = () => {
             </div>
             <div className="images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10">
               <img
-                src="/images/instructor.jpg"
+                src="/single-page-app/images/instructor.jpg"
                 alt=""
                 className="rounded-t-lg object-cover w-full h-72 relative"
               />

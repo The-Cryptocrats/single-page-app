@@ -2,29 +2,29 @@ export const LinkData = [
   {
     id: 1,
     title: "Home",
-    url: "/",
+    url: "/single-page-app/",
   },
   {
     id: 2,
     title: "About",
-    url: "/about",
+    url: "/single-page-app/about",
   },
   {
     id: 3,
     title: "Courses",
-    url: "/courses",
+    url: "/single-page-app/courses",
   },
   {
     id: 4,
     title: "Instructor",
-    url: "/instructor",
+    url: "/single-page-app/instructor",
   },
 ];
 
 export const courses = [
   {
     id: 1,
-    cover: "../images/programming.jpg",
+    cover: "/single-page-app/images/programming.jpg",
     title: "Introduction to Programming",
     lessons: "20",
     tag: "Python",
@@ -33,7 +33,7 @@ export const courses = [
   },
   {
     id: 2,
-    cover: "../images/design.jpg",
+    cover: "/single-page-app/images/design.jpg",
     title: "UI & UX Design for Beginners",
     lessons: "10",
     tag: "Figma",
@@ -42,7 +42,7 @@ export const courses = [
   },
   {
     id: 3,
-    cover: "../images/ai.jpg",
+    cover: "/single-page-app/images/ai.jpg",
     title: "Leveraging Artificial Intelligence",
     lessons: "12",
     tag: "Python",
@@ -51,7 +51,7 @@ export const courses = [
   },
   {
     id: 4,
-    cover: "../images/arvr.jpg",
+    cover: "/single-page-app/images/arvr.jpg",
     title: "Augmented Reality & Virtual Reality",
     lessons: "18",
     tag: "Python",
@@ -60,7 +60,7 @@ export const courses = [
   },
   {
     id: 5,
-    cover: "../images/todo.jpg",
+    cover: "/single-page-app/images/todo.jpg",
     title: "Time Management for Procrastinators",
     lessons: "25",
     tag: "Life Skills",
@@ -69,7 +69,7 @@ export const courses = [
   },
   {
     id: 6,
-    cover: "../images/meditation.jpg",
+    cover: "/single-page-app/images/meditation.jpg",
     title: "Mindfulness Meditation",
     lessons: "1",
     tag: "Life Skills",
