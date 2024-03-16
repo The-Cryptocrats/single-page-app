@@ -58,7 +58,7 @@ export const Courses = () => {
                   <div className="user flex items-center">
                     <img
                       className="rounded-full"
-                      src="public/images/default-profile.png"
+                      src="/images/default-profile.png"
                       alt=""
                     />
                     <span className="text-[14px] ml-2">{item.instructor}</span>
