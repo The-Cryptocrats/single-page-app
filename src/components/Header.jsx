@@ -17,7 +17,7 @@ export const Header = () => {
   return (
     <header className="bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full">
       <div className="container flex justify-between items-center">
-        <NavLink to="/" onClick={scrollToTop}>
+        <NavLink to="/single-page-app/" onClick={scrollToTop}>
           <img
             src={LogoImg}
             alt="logo"
@@ -37,7 +37,10 @@ export const Header = () => {
                 >
                   <NavLink
                     className={({ isActive }) =>
-                      isActive ? "text-primary text-sm" : "text-[15px]"
+                      // Hack: ignore Home
+                      isActive && link.id > 1
+                        ? "text-primary text-sm"
+                        : "text-[15px]"
                     }
                     to={link.url}
                   >

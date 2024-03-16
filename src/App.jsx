@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/single-page-app"
             element={
               <Layout>
                 <Home />
@@ -19,7 +19,7 @@ function App() {
             }
           />
           <Route
-            path="/about"
+            path="/single-page-app/about"
             element={
               <Layout>
                 <About />
@@ -27,7 +27,7 @@ function App() {
             }
           />
           <Route
-            path="/courses"
+            path="/single-page-app/courses"
             element={
               <Layout>
                 <Courses />
@@ -35,7 +35,7 @@ function App() {
             }
           />
           <Route
-            path="/instructor"
+            path="/single-page-app/instructor"
             element={
               <Layout>
                 <Instructor />
