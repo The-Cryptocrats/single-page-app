@@ -1,12 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        primary: "#2B4EFF",
-        secondary: "#B8DDE3",
-        backbg: "rgba(43, 78, 255, 0.7);",
+        amritaRed: "#AF0C3E",
+        amritaYellow: "#FFD92A",
+        amritaBlue: "#1446A0",
+        amritaGreen: "#256D1B",
+        amritaOrange: "#FF570A",
+        amritaPalePink: "rgb(238,44,130, 0.6)",
       },
       screens: {
         md: { max: "800px" },
